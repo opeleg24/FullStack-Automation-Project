@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Python (old)/NBASite_Automation_Project/.idea/NBASite_Automation_Project.iml" filepath="$PROJECT_DIR$/../../Python (old)/NBASite_Automation_Project/.idea/NBASite_Automation_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Python (old)/Python_Selenium_Course/.idea/Python_Basics.iml" filepath="$PROJECT_DIR$/../../Python (old)/Python_Selenium_Course/.idea/Python_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/full_stack_automation_final_project_2024.iml" filepath="$PROJECT_DIR$/.idea/full_stack_automation_final_project_2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Python (old)/Python_Self_Framework/.idea/py_2.iml" filepath="$PROJECT_DIR$/../../Python (old)/Python_Self_Framework/.idea/py_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_automation_2024/.idea/test_automation_2024.iml" filepath="$PROJECT_DIR$/../test_automation_2024/.idea/test_automation_2024.iml" />
+    </modules>
+  </component>
+</project>

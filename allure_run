@@ -1,0 +1,5 @@
+pytest -s -v .\test_web.py --alluredir=../allure-results
+pytest -s -v .\test_api.py --alluredir=../allure-results
+pytest -s -v .\test_db.py --alluredir=../allure-results
+pytest -s -v .\test_electron.py --alluredir=../allure-results
+allure serve allure-results

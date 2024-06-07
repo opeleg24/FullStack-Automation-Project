@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!--General-->
+    <WaitTime>10</WaitTime>
+    <ScreenshotPath>./allure-screen-shots/</ScreenshotPath>
+
+    <!--Web-->
+    <Browser>edge</Browser>
+    <Url>https://mpeleg90.com/omri/</Url>
+    <CSV_Location_Links>./ddt/web_data_links.csv</CSV_Location_Links>
+    <CSV_Location_Pages>./ddt/web_data_pages.csv</CSV_Location_Pages>
+    <JSON_Location_Success_MSG>./ddt/web_data_success_msg.json</JSON_Location_Success_MSG>
+    <Execute_Applitools>yes</Execute_Applitools> <!--yes/no-->
+    <Applitools_API_Key>P6rdCz0bUP02Cg1RLqA52If48KwojoNBjfWi5g6t24s110</Applitools_API_Key>
+
+    <!--Mobile-->
+    <Mobile_Device>Android</Mobile_Device>
+    <Udid>RFCWB0V19YN</Udid>
+    <APP_Package>com.wighthat.MetricConversion</APP_Package>
+    <APP_Activity>.SplashActivity</APP_Activity>
+    <Bundle_ID>missing bundle</Bundle_ID>
+    <Appium_Server>http://localhost:4730/wd/hub</Appium_Server>
+    <Swipe_Duration>200</Swipe_Duration>
+    <JSON_Mobile_ABOUT_US_Page_Data>./ddt/mobile_data_about_us_page.json</JSON_Mobile_ABOUT_US_Page_Data>
+    <Mobile_Time_convert_Data>./ddt/mobile_data_convert_time.csv</Mobile_Time_convert_Data>
+
+
+    <!--API-->
+    <APIUrl>http://localhost:3000/</APIUrl>
+    <UserName>admin</UserName>
+    <Password>eSxbVuY.NBUmHr3q</Password>
+    <UserEmail>admin@localhost</UserEmail>
+
+    <!--Database-->
+    <DB_Host>localhost</DB_Host>
+    <DB_User>root</DB_User>
+    <DB_Password></DB_Password>
+    <DB_Name>nba_teams_2019</DB_Name>
+    <Updated_NBA_Team_Data>./ddt/db_data_updated_nba_team_data.csv</Updated_NBA_Team_Data>
+    <NBA_Player>./ddt/db_data_created_NBA_player.json</NBA_Player>
+    <NBA_Steph_Curry>./ddt/db_data_expected_steph_curry_3P_seasons.json</NBA_Steph_Curry>
+
+    <!--Electron-->
+    <Electron_App>C:/Users/opele/AppData/Local/Programs/todolist/Todolist.exe</Electron_App>
+    <Electron_Driver>C:/Automation/electron/electrondriver.exe</Electron_Driver>
+
+    <!--Desktop-->
+    <Application_Name>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Application_Name>
+    <WinAppDriver_Service>http://127.0.0.1:4723</WinAppDriver_Service>
+
+
+</Environment>
