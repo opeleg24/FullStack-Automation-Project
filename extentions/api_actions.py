@@ -4,7 +4,6 @@ from requests.auth import HTTPBasicAuth
 
 header = {'Content-Type': 'application/json'}
 
-
 class APIActions:
 
     ####################################################################################################################
