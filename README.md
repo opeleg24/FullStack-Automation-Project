@@ -1,9 +1,9 @@
 
 
-## Full Stack (Python) Automation final project
+## Full Stack Automation Final Project - (Python)
 
 ## About/Project Overview
-This project is designed for automation testing, built as an infrastructure using the Python language.
+This project is designed for automation testing, it's built as an infrastructure using the Python language.
 The project is structured as an infrastructure using the page object design pattern and layered architecture to ensure maintainability and scalability across different clients and browsers.
 It supports diverse testing applications including Web, API, Mobile, database, Electron, and desktop testing.
 
@@ -16,12 +16,12 @@ Supports testing for the following applications/services:
 - API Testing - Server-side Testing
 - Database Testing - Server-side testing
 
-## Infrastructure utilizes:
+## Infrastructure Utilizes:
 The testing infrastructure is built with the following components to enhance automation capabilities:
 - **Page Object Design Pattern**: Used to create reusable and maintainable code by keeping the page elements separated from test scripts.
 - **Project Layers**: Organized into extension workflows, test cases, and utility classes to separate concerns and improve code clarity.
 - **Support of different client browsers**: Testing can be utilized for different client browsers applications
-- **Failure Mechanism**: Employs small assertions and an event listener to enhance debugging during test failures.
+- **Failure Mechanism**: Event listener to enhance debugging during test failures.
 - **External File Support**: Facilitates data-driven testing by supporting external files like CSV, Excel, etc.
 - **Visual Testing**: Implements visual testing to catch UI bugs/issues (Applitools Program).
 
@@ -30,7 +30,9 @@ Infrastructure key distinguishable operations
 - **Common Operations**: A utility class that encapsulates common operations and functionalities.
 - **Workflow Sections**: Separates the business logic from the testing execution, organizing the flow of processes and enhancing the clarity and maintainability of test scripts.
 - **Test Cases Section**: Organizes each test to display only key factors or information about the test. Focusing on essential details to facilitate quick understanding and efficient test management.
-- **Page Objects Section**: Describes how the framework interacts with, identifies, and organizes web elements, ensuring a clear separation between the test code and the web UI, which enhances test maintenance and reduces code duplication.
+- **Page Objects Section**: Describes how the framework interacts with, identifies, and organizes web elements, ensuring a clear separation between the test code and the web UI, which enhances test maintenance
+- and reduces code duplication.
+- **Verification sections**: Our testing framework utilizes standard assertions to check specific conditions and verify that the software behaves as expected. In addition to standard assertions, we integrate smart assertions, which enhance our testing capabilities by allowing multiple conditions to be evaluated before a test is considered to fail. 
 
 ## List of Project Applications
 This project covers a diverse range of applications/services to demonstrate its testing capabilities across various platforms:
@@ -43,7 +45,7 @@ This project covers a diverse range of applications/services to demonstrate its 
 6. **ToDo List Application (Electron Testing)**: An Electron-based application, tested to verify its functionality and performance as a task management tool.
 
 ## Tools and Frameworks Used in the Project
-This project utilizes a robust set of tools and frameworks to facilitate comprehensive testing across multiple platforms:
+This project utilizes different tools and frameworks to facilitate comprehensive testing across multiple platforms:
 
 - **Selenium**: For automating browser actions and managing web application testing.
 - **Pytest**: Used for organizing and running tests, providing a powerful framework for assertions and test setups.
@@ -90,7 +92,3 @@ Test execution is automated using Jenkins, integrated with Allure for reporting 
 
 ### How to Run Tests
 To execute the tests, configure your Jenkins pipeline to include the necessary test suites and trigger them as per your CI/CD setup. Results can be viewed in Allure for detailed analysis.
-
-
-## Contact
-For further details or collaboration, please contact [opeleg1990@gmail.com].
