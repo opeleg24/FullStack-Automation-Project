@@ -68,7 +68,7 @@ To get started with the different types of testing in this project, follow these
 - 
 ### Mobile Testing
 - **Download and Install Appium Studio**: To conduct mobile testing, you will need to download and install Appium Studio.
-- - **Import Mobile apk File**: Import the `MetricConversions_v2.0.3.apk` file located [file](./files_installations/Mobile) in the project directory under `\files_installations\Mobile`. This setup your application on the Appium studio.
+- - **Import Mobile apk File**: Import the `MetricConversions_v2.0.3.apk` file located [`MetricConversions_v2.0.3.apk`](./utilities) in the project directory under `\files_installations\Mobile`. This setup your application on the Appium studio.
 
 ### Database Testing
 - **Operate the XAMPP Server**: To perform database testing, start the XAMPP server with Apache and MySQL modules running. This setup will help you manage the local database server.
