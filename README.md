@@ -74,7 +74,7 @@ To get started with the different types of testing in this project, follow these
 
 ### Database Testing
 - Operate the XAMPP Server: To perform database testing, start the XAMPP server with Apache and MySQL modules running. This setup will help you manage the local database server.
-- Import Database File: Import the [`nba_teams_2019.sql``](./utilities). This step will populate your MySQL database with the necessary data for testing the NBA website database.
+- Import Database File: Import the [`nba_teams_2019.sql`](./utilities). This step will populate your MySQL database with the necessary data for testing the NBA website database.
 
 ### Electron Testing
 - Install Electron App: To set up Electron testing, install the application - https://atidcollege.co.il/downloads/electron/TodoList-Setup.exe
