@@ -68,18 +68,18 @@ To get started with the different types of testing in this project, follow these
 **API Testing**
 - Download Grafana Server: To set up the environment for API testing, download and install the Grafana server from the [official Grafana website](https://grafana.com/grafana/download).
 
-### Mobile Testing
+**Mobile Testing**
 - Download and Install Appium Studio: To conduct mobile testing, you will need to download and install Appium Studio.
 - Import Mobile apk File: Import the [`MetricConversions_v2.0.3.apk`](./utilities). Then set up your application on the Appium studio.
 
-### Database Testing
+**Database Testing**
 - Operate the XAMPP Server: To perform database testing, start the XAMPP server with Apache and MySQL modules running. This setup will help you manage the local database server.
 - Import Database File: Import the [`nba_teams_2019.sql`](./utilities). This step will populate your MySQL database with the necessary data for testing the NBA website database.
 
-### Electron Testing
+**Electron Testing**
 - Install Electron App: To set up Electron testing, install the application - https://atidcollege.co.il/downloads/electron/TodoList-Setup.exe
 
-### Desktop Testing
+**Desktop Testing**
 - Install WinAppDriver Service: To facilitate the automation of desktop applications, install the WinAppDriver Service. This tool is essential for enabling UI automation for Windows applications.
 - open the Calculator Application that you intend to test (desktop calculator application)
   
