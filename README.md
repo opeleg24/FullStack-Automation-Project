@@ -19,7 +19,7 @@ Supports testing for the following applications/services:
 ## Infrastructure Utilizes:
 The testing infrastructure is built with the following components to enhance automation capabilities:
 - **Page Object Design Pattern**: Used to create reusable and maintainable code by keeping the page elements separated from test scripts.
-- **Project Layers**: Organized into extension workflows, test cases, and utility classes to separate concerns and improve code clarity.
+- **Project Layers**: Organized into extension workflows, test cases, and utility classes to improve code clarity.
 - **Support of different client browsers**: Testing can be utilized for different client browsers applications
 - **Failure Mechanism**: Event listener to enhance debugging during test failures.
 - **External File Support**: Facilitates data-driven testing by supporting external files like CSV, Excel, etc.
