@@ -11,9 +11,12 @@ from extentions.ui_actions import UiActions
 from extentions.verifications import Verifications
 from page_objects.web_objects import hotel_form
 from utilities.common_ops import wait, For, get_data
+
+import test_cases.conftest as conf
+
+
 from workflows import web_flows
 from workflows.web_flows import WebFlows
-import test_cases.conftest as conf
 
 
 @pytest.mark.usefixtures('init_web_driver')
@@ -65,7 +68,7 @@ class Test_Web:
     @allure.title("Test07: Visual Testing: Blog pages UI design")
     @allure.description(
         "This test verifies the blog pages (first and second page) UI design using Applitools visual testing")
-    @pytest.mark.skipif(os.getenv('Execute_Applitools').lower() == 'no', reason="Applitools is not enabled")
+    @pytest.mark.skipif(get_data('Execute_Applitools').lower() == 'no', reason="Applitools is not enabled")
     def test_visual_testing(self):
         conf.eyes.open(conf.driver, "Blog Pages", "Blog Pages UI Design")
         UiActions.click(page.web_top_nav.get_blog_page_link())

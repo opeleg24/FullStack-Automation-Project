@@ -2,15 +2,15 @@
 <Environment>
     <!--General-->
     <WaitTime>10</WaitTime>
-    <ScreenshotPath>./allure-screen-shots/</ScreenshotPath>
+    <ScreenshotPath>../allure-screen-shots/</ScreenshotPath>
 
     <!--Web-->
-    <Browser>edge</Browser>
+    <Browser>chrome</Browser>
     <Url>https://mpeleg90.com/omri/</Url>
-    <CSV_Location_Links>./ddt/web_data_links.csv</CSV_Location_Links>
-    <CSV_Location_Pages>./ddt/web_data_pages.csv</CSV_Location_Pages>
-    <JSON_Location_Success_MSG>./ddt/web_data_success_msg.json</JSON_Location_Success_MSG>
-    <Execute_Applitools>yes</Execute_Applitools> <!--yes/no-->
+    <CSV_Location_Links>../ddt/web_data_links.csv</CSV_Location_Links>
+    <CSV_Location_Pages>../ddt/web_data_pages.csv</CSV_Location_Pages>
+    <JSON_Location_Success_MSG>../ddt/web_data_success_msg.json</JSON_Location_Success_MSG>
+    <Execute_Applitools>no</Execute_Applitools> <!--yes/no-->
     <Applitools_API_Key>P6rdCz0bUP02Cg1RLqA52If48KwojoNBjfWi5g6t24s110</Applitools_API_Key>
 
     <!--Mobile-->
@@ -21,8 +21,8 @@
     <Bundle_ID>missing bundle</Bundle_ID>
     <Appium_Server>http://localhost:4730/wd/hub</Appium_Server>
     <Swipe_Duration>200</Swipe_Duration>
-    <JSON_Mobile_ABOUT_US_Page_Data>./ddt/mobile_data_about_us_page.json</JSON_Mobile_ABOUT_US_Page_Data>
-    <Mobile_Time_convert_Data>./ddt/mobile_data_convert_time.csv</Mobile_Time_convert_Data>
+    <JSON_Mobile_ABOUT_US_Page_Data>../ddt/mobile_data_about_us_page.json</JSON_Mobile_ABOUT_US_Page_Data>
+    <Mobile_Time_convert_Data>../ddt/mobile_data_convert_time.csv</Mobile_Time_convert_Data>
 
 
     <!--API-->

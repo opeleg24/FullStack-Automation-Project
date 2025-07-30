@@ -30,6 +30,13 @@ action = None
 mobile_size = None
 
 
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
+
+
 ####################################################################################################################
 # Function Name: init_web_driver
 # Function Description: This function is used to initialize the web driver - the scope of the function is class for all tests
@@ -49,17 +56,18 @@ def init_web_driver(request):
     # Pycharm
     # if get_data('Execute_Applitools').lower() == 'yes':
     # Jenkins
-    if os.getenv('Execute_Applitools').lower() == 'yes':
-        globals()['driver'] = get_web_driver()
-    else:
-        edriver = get_web_driver()
-        globals()['driver'] = EventFiringWebDriver(edriver, EventListener())
+    # if os.getenv('Execute_Applitools').lower() == 'yes':
+    #     globals()['driver'] = get_web_driver()
+    # else:
+    #     edriver = get_web_driver()
+    #     globals()['driver'] = EventFiringWebDriver(edriver, EventListener())
+    globals()['driver'] = get_web_driver()
     driver = globals()['driver']
     driver.maximize_window()
     # Pycharm
-    # driver.implicitly_wait(int(get_data('WaitTime')))
+    driver.implicitly_wait(int(get_data('WaitTime')))
     # Jenkins
-    driver.implicitly_wait(os.getenv("WaitTime"))
+    #driver.implicitly_wait(os.getenv("WaitTime"))
     driver.get(get_data('Url'))
     request.cls.driver = driver
     ManagePages.init_web_pages()
@@ -258,9 +266,9 @@ def get_mobile_driver():
 
 def get_web_driver():
     # Pycharm
-    # web_driver = get_data('Browser')
+    web_driver = get_data('Browser')
     # Jenkins
-    web_driver = os.getenv("Browser")
+    #web_driver = os.getenv("Browser")
     if web_driver.lower() == 'chrome':
         driver = get_chrome_driver()
     elif web_driver.lower() == 'firefox':

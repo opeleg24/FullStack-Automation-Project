@@ -218,4 +218,3 @@ testDataPages = [(data_002[1][0], data_002[1][1]),
 # It extracts the success messages that appears after submitting the form
 #######################################################################################################################
 successMessages = read_json_file(get_data('JSON_Location_Success_MSG'))
-
